@@ -3,7 +3,9 @@
 ; Date: 4/28/2025
 ; Description: Basic calculator that performs addition, subtraction,
 ;              multiplication, and integer division on two-digit
-;              values (00 - 99). 
+;              values (00 - 99). Performs input validation, checks
+;              for divide by 0 errors, and loops until user chooses
+;              to quit the program.
 ;
 ; Register Usage:
 ;   R0 - reserved for TRAP output
