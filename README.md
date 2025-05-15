@@ -2,6 +2,7 @@
 ## Project Description: 
 This program is a simple calculator that can add, subtract, multiply, and divide up to two-digit integers. My original plan was to implement a trigonometric function calculator that could take an angle in degrees and find the sine, cosine, or tangent of the angle. This proved too difficult to complete in the time I had, so I reverted to a basic arithmetic calculator. I attempted to implement floating-point division, but I was unable to finish, so the division feature performs simple integer division. To perform an arithmetic operation, enter 2 two-digit values separated by an operator ('+', '-', '*', or '/'). The program reads the two values and calls the appropriate subroutine based on the operator. Since the result can be up to 4 digits long, it also calls a subroutine to convert the result to a string for display. 
 &nbsp;
+&nbsp;
 ## Operations: 
 ### Addition:
 Takes the two 2-digit values and adds them directly.
