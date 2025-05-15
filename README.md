@@ -27,7 +27,7 @@ Output: 0
 ### Division: 
 Flips the second value to a negative, then iterates through a loop in which it adds this negative value to the first value repeatedly until the result is negative. It also maintains a loop counter that is incremented with every iteration. After the loop finishes, it subtracts 1 from the loop counter to account for the extra iteration of the loop. Finally, it returns the loop counter as the quotient. 
 #### Example:
-Input: 45/04
+Input: 45/04 \n
 Output: 11
 #### Example:
 Input: 02/08
@@ -37,4 +37,4 @@ Input: 43/00
 Output: Cannot divide by 0!
 
 ## Link to LC-3 Simulator Download (version 2.0.2): 
-https://github.com/chiragsakhuja/lc3tools/releases
+LC3Toolshttps://github.com/chiragsakhuja/lc3tools/releases
