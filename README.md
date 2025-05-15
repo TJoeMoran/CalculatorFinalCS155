@@ -6,35 +6,35 @@ This program is a simple calculator that can add, subtract, multiply, and divide
 ### Addition:
 Takes the two 2-digit values and adds them directly.
 #### Example:
-Input: 23+02
-Output: 25
+##### Input: 23+02
+##### Output: 25
 
 ### Subtraction:
 Flips the second 2-digit value to a negative, then adds this value to the first 2-digit value. Can handle negative results.
 #### Example:
-Input: 57-68
-Output: -11
+##### Input: 57-68
+##### Output: -11
 
 ### Multiplication:
 Iterates through a loop in which it adds the first value repeatedly to a running total. The loop uses the second value as a counter.
 #### Example:
-Input: 23*20
-Output: 460
+##### Input: 23*20
+##### Output: 460
 #### Example:
-Input: 23*00
-Output: 0
+##### Input: 23*00
+##### Output: 0
 
 ### Division: 
 Flips the second value to a negative, then iterates through a loop in which it adds this negative value to the first value repeatedly until the result is negative. It also maintains a loop counter that is incremented with every iteration. After the loop finishes, it subtracts 1 from the loop counter to account for the extra iteration of the loop. Finally, it returns the loop counter as the quotient. 
 #### Example:
-Input: 45/04 \n
-Output: 11
+##### Input: 45/04
+##### Output: 11
 #### Example:
-Input: 02/08
-Output: 0
+##### Input: 02/08
+##### Output: 0
 #### Example:
-Input: 43/00
-Output: Cannot divide by 0!
+##### Input: 43/00
+##### Output: Cannot divide by 0!
 
 ## Link to LC-3 Simulator Download (version 2.0.2): 
-LC3Toolshttps://github.com/chiragsakhuja/lc3tools/releases
+[LC3Tools](https://github.com/chiragsakhuja/lc3tools/releases)
