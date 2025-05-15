@@ -34,8 +34,7 @@ Flips the second value to a negative, then iterates through a loop in which it a
 ##### Output: 0
 #### Example:
 ##### Input: 43/00
-##### Output: Cannot divide by 0!
-
+##### Output: Cannot divide by 0!  
 
 
 ## Link to LC-3 Simulator Download (version 2.0.2): 
